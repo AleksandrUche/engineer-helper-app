@@ -1,0 +1,21 @@
+Установка
+pip install pyqt5-tools
+запись файла qt designer в файл .py
+pyuic5 -x helper_qt.ui -o helper_qt.py
+
+pyuic5 -x corner_equal_ui.ui -o corner_equal_ui.py
+pyuic5 -x corner_different_ui.ui -o corner_different_ui.py
+pyuic5 -x circle_ui.ui -o circle_ui.py
+pyuic5 -x square_ui.ui -o square_ui.py
+pyuic5 -x sheet_ui.ui -o sheet_ui.py
+pyuic5 -x tube_ui.ui -o tube_ui.py
+pyuic5 -x profile_pipe_ui.ui -o profile_pipe_ui.py
+pyuic5 -x channel_ui.ui -o channel_ui.py
+
+pyuic5 -x arc_length.ui -o arc_length.py
+pyuic5 -x arc_size.ui -o arc_size.py
+pyuic5 -x circumference.ui -o circumference.py
+pyuic5 -x expand_shells.ui -o expand_shells.py
+pyuic5 -x heat_treatment.ui -o heat_treatment.py
+pyuic5 -x ring_weight.ui -o ring_weight.py
+pyuic5 -x thinning_pipe.ui -o thinning_pipe.py
