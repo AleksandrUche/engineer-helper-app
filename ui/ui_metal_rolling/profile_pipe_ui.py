@@ -6,10 +6,12 @@ from PyQt5.QtWidgets import QWidget
 
 from dialogs.warning_dialog.warning import WarningDialogWindow
 from services.services_widget.calculators_metal_rolling import calculate_mass_profile_pipe
-from services.services_widget.services import (checking_values,
-                                               CheckingError,
-                                               check_units_measure_length,
-                                               resource_path)
+from services.services_widget.services import (
+    checking_values,
+    CheckingError,
+    check_units_measure_length,
+    resource_path,
+)
 
 
 class ProfilePipeWidget(QWidget):

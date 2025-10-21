@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QHBoxLayout
 # Локальные
 from menu.menu_bar import MainMenuBar
 from services.services_widget.services import resource_path
-from widgets.main_widget import MainStackWidget
+from ui.main_ui import MainStackWidget
 
 
 class MainWindow(QMainWindow):

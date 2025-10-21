@@ -6,9 +6,11 @@ from PyQt5.QtWidgets import QWidget
 
 from dialogs.warning_dialog.warning import WarningDialogWindow
 from services.services_widget.calculators_vesseles import ring_weight_diameter
-from services.services_widget.services import (checking_values,
-                                               CheckingError,
-                                               resource_path)
+from services.services_widget.services import (
+    checking_values,
+    CheckingError,
+    resource_path,
+)
 
 
 class RingWeightWidget(QWidget):
@@ -154,5 +156,3 @@ class RingWeightWidget(QWidget):
                                           thickness,
                                           rounding)
             self.result_field.setText(f'{result} кг')
-
-

@@ -6,9 +6,11 @@ from PyQt5.QtWidgets import QWidget
 
 from dialogs.warning_dialog.warning import WarningDialogWindow
 from services.services_widget.calculators_vesseles import heat_treatment
-from services.services_widget.services import (checking_values,
-                                               CheckingError,
-                                               resource_path)
+from services.services_widget.services import (
+    checking_values,
+    CheckingError,
+    resource_path,
+)
 
 
 class ThermalTreatmentWidget(QWidget):

@@ -6,9 +6,11 @@ from PyQt5.QtWidgets import QWidget
 
 from dialogs.warning_dialog.warning import WarningDialogWindow
 from services.services_widget.calculators_vesseles import expand_shell
-from services.services_widget.services import (checking_values,
-                                               CheckingError,
-                                               resource_path)
+from services.services_widget.services import (
+    checking_values,
+    CheckingError,
+    resource_path,
+)
 
 
 class ExpandShellWidget(QWidget):

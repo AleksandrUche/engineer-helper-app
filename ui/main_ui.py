@@ -1,19 +1,19 @@
 from PyQt5.QtWidgets import QStackedWidget
 
-from widgets.widget_metal_rolling.corner_equal_widget import CornerEqualWidget
-from widgets.widget_metal_rolling.сorner_different_widget import CornerDifferentWidget
-from widgets.widget_metal_rolling.сircle_widget import CircleWidget
-from widgets.widget_metal_rolling.square_widget import SquareWidget
-from widgets.widget_metal_rolling.sheet_widget import SheetWidget
-from widgets.widget_metal_rolling.tube_widget import TubeWidget
-from widgets.widget_metal_rolling.profile_pipe_widget import ProfilePipeWidget
-from widgets.widget_vesseles.heat_treatment_widget import ThermalTreatmentWidget
-from widgets.widget_vesseles.pipe_thinning_widget import PipeThinningWidget
-from widgets.widget_vesseles.expand_shell_widget import ExpandShellWidget
-from widgets.widget_vesseles.arc_length_widget import ArcLengthWidget
-from widgets.widget_vesseles.circumference_widget import CircumferenceWidget
-from widgets.widget_vesseles.arc_size_widget import ArcSizeWidget
-from widgets.widget_vesseles.ring_weight_widget import RingWeightWidget
+from ui.ui_metal_rolling.corner_equal_ui import CornerEqualWidget
+from ui.ui_metal_rolling.сorner_different_ui import CornerDifferentWidget
+from ui.ui_metal_rolling.сircle_ui import CircleWidget
+from ui.ui_metal_rolling.square_ui import SquareWidget
+from ui.ui_metal_rolling.sheet_ui import SheetWidget
+from ui.ui_metal_rolling.tube_ui import TubeWidget
+from ui.ui_metal_rolling.profile_pipe_ui import ProfilePipeWidget
+from ui.ui_vesseles.heat_treatment_ui import ThermalTreatmentWidget
+from ui.ui_vesseles.pipe_thinning_ui import PipeThinningWidget
+from ui.ui_vesseles.expand_shell_ui import ExpandShellWidget
+from ui.ui_vesseles.arc_length_ui import ArcLengthWidget
+from ui.ui_vesseles.circumference_ui import CircumferenceWidget
+from ui.ui_vesseles.arc_size_ui import ArcSizeWidget
+from ui.ui_vesseles.ring_weight_ui import RingWeightWidget
 
 
 class MainStackWidget(QStackedWidget):

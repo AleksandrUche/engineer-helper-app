@@ -6,10 +6,12 @@ from PyQt5.QtWidgets import QWidget
 
 from dialogs.warning_dialog.warning import WarningDialogWindow
 from services.services_widget.calculators_vesseles import circumference
-from services.services_widget.services import (checking_values,
-                                               CheckingError,
-                                               round_the_number,
-                                               resource_path)
+from services.services_widget.services import (
+    checking_values,
+    CheckingError,
+    round_the_number,
+    resource_path,
+)
 
 
 class CircumferenceWidget(QWidget):
